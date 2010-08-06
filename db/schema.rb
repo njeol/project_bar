@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(:version => 20100806135438) do
   create_table "managers", :force => true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.text      "name"
+    t.string    "name"
     t.integer   "quantity"
   end
 
