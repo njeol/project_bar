@@ -13,6 +13,8 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # Deploy with Capistrano
 # gem 'capistrano'
 
+gem 'cucumber'
+
 # To use debugger
 # gem 'ruby-debug'
 
