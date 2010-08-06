@@ -10,6 +10,7 @@ class ManagerController < ApplicationController
   
   def create
     @stock = Manager.create(params[:manager])
+    redirect_to managers_path
   end
   
   def decrease(n)
