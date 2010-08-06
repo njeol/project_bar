@@ -8,14 +8,14 @@ Scenario: decrease a particular alcool
   When I press the button minus
   Then the stock of vodka decrease of one.
   
-Scenario : Send email 
+Scenario: Send a mail  
   Given I hae a stock of 50 bottles of vodka
   When I have a number of bottles bellow the number 5 
   Then A windows appear on my computer with 50 by default in the casebox
   When I click on the button order
   Then A script send a mail to the provider to order the good number of vodka 
    
-Scenario : Increase a particular alcool
+Scenario: Increase a particular alcool
   Given I have 3 bottles of vodka
   And I receive my 50 bottles of vodka 
   When I enter 50 bottles in the casebox
