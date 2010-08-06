@@ -8,7 +8,7 @@ Scenario: decrease a particular alcool
   When I press the button minus
   Then the stock of vodka decrease of one.
   
-Scenario: Send email 
+Scenario: Send a mail  
   Given I hae a stock of 50 bottles of vodka
   When I have a number of bottles bellow the number 5 
   Then A windows appear on my computer with 50 by default in the casebox
