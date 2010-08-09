@@ -1,4 +1,6 @@
 %h1 My_bar
 
 = link_to 'add alcool', new_manager_path
-= render @stock
+	
+- if @stock
+	= render @stock
